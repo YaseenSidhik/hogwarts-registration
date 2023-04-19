@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hogwarts Registration form</title>
+</head>
+<body>
+        <section class="hero">
+            <div class="container">
+              <h1>Hogwarts Admission form</h1>
+              <p>Enroll in the best Wizarding school in the world</p>
+              <a href="#form-section">Register Now</a>
+            </div>
+        </section>
+        <section id="form-section">
+            <div class="container">
+            <h3 class="heading">Fill the form below</h3>
+            <div class="form-container">
+                <label for="name">
+                    Enter Student name:
+                    <input type="text" placeholder="Student's Name">
+                </label>
+                <label for="dob">
+                   Date of Birth: <input type="date" name="dob">
+                </label>
+                <label for="fname">
+                    Enter Father's name:
+                    <input type="text" placeholder="Father's Name">
+                </label>
+                <label for="fstatus">
+                    Father's Wizarding status:
+                    <select name="fathers-status">
+                       <option value=" ">Choose an option</option>
+                       <option value="Pure-blood">Pure Blood</option>
+                       <option value="half-blood">Half-Blood</option>
+                       <option value="muggle">Muggle</option>
+                    </select>
+                </label>
+                <label for="mname">
+                    Enter Mother's name:
+                    <input type="text" placeholder="Mother's Name">
+                </label>
+                <label for="mstatus">
+                    Mother's Wizarding status:
+                    <select name="fathers-status">
+                       <option value=" ">Choose an option</option>
+                       <option value="Pure-blood">Pure Blood</option>
+                       <option value="half-blood">Half-Blood</option>
+                       <option value="muggle">Muggle</option>
+                    </select>
+                </label>
+                <label>
+                    Enter the Address:
+                <textarea name="Address"  cols="30" rows="10" placeholder="Enter the Address"></textarea>
+                </label>
+                <label for="Nationality">
+                    Nationality:
+                    <select name="Nationality">
+                        <option value="England">England</option>
+                        <option value="Ireland">Ireland</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+                <a href="submitted.html" class="btn">Submit</a>
+            </div>
+            </div>
+        </section>
+</body>
+</html>

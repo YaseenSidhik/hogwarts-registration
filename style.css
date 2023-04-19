@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Harry" ;
+    src: url("HARRYP__.TTF");
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body
+{
+   color: #000;
+   font-family: Harry;
+   line-height: 1.6;
+}
+.container
+{   
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.hero
+{
+    background-image: url("https://media.giphy.com/media/u6JLbqhLbS0jYxTB95/giphy.gif");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #846a55;
+}
+.hero h1
+{
+    font-size: 5rem;
+    text-shadow: 0px 0px 4px black;
+}
+.hero p
+{
+    font-size: 2.5rem;
+    text-shadow: 0px 0px 3px black;
+}
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.hero a
+{
+    background-color: #25130a;
+    padding: 12px 24px 12px 24px;
+    font-size: 25px;
+}
+.hero a:hover
+{
+    background-color:#846a55 ;
+    color: #25130a;
+}
+#form-section
+{
+    background-color: #846a55;
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 120vh;
+}
+label
+{
+    display: block;
+    margin-top: 30px;
+}
+.heading
+{
+    font-size: 2rem;
+    margin-top: 15px;
+}
+input,select,textarea
+{
+    padding: 8px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #25130a;
+}
+.btn
+{
+    background-color: #25130a;
+    padding: 5px 10px 5px 10px;
+    font-size: 25px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.btn:hover
+{
+    background-color:#846a55 ;
+    color: #25130a;
+}
+.submitted
+{
+text-align: center;
+}
+.owl-letter
+{
+    width: 500px;
+}
+.submitted h3
+{
+    font-size: 4rem;
+    color: lightgreen;
+    text-shadow: 0px 0px 2px black;
+}
+.submitted p
+{
+    color: green;
+    font-size: 50px;
+}
+
+@media (max-width:768px) {
+    .owl-letter
+    {
+        width: 300px;
+    }
+    .submitted h3
+{
+    font-size: 2rem;
+   
+}
+.submitted p
+{
+    color: green;
+    font-size: 30px;
+}
+
+#form-section
+{
+    height: auto;
+}
+    
+}
+
